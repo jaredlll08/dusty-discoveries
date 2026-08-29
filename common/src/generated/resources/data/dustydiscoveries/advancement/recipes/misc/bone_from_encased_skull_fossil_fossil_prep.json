@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "dustydiscoveries:has_encased_skull_fossil": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dustydiscoveries:encased_skull_fossil"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dustydiscoveries:bone_from_encased_skull_fossil_fossil_prep"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "dustydiscoveries:has_encased_skull_fossil"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dustydiscoveries:bone_from_encased_skull_fossil_fossil_prep"
+    ]
+  }
+}

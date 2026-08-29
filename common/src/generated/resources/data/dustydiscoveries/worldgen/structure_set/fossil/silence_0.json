@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 811581816,
+    "separation": 8,
+    "spacing": 24
+  },
+  "structures": [
+    {
+      "structure": "dustydiscoveries:fossil/silence_0",
+      "weight": 1
+    }
+  ]
+}

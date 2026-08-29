@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "display_case_dye",
+  "ingredients": [
+    "minecraft:blue_dye",
+    [
+      "dustydiscoveries:white_display_case",
+      "dustydiscoveries:orange_display_case",
+      "dustydiscoveries:magenta_display_case",
+      "dustydiscoveries:light_blue_display_case",
+      "dustydiscoveries:yellow_display_case",
+      "dustydiscoveries:lime_display_case",
+      "dustydiscoveries:pink_display_case",
+      "dustydiscoveries:gray_display_case",
+      "dustydiscoveries:light_gray_display_case",
+      "dustydiscoveries:cyan_display_case",
+      "dustydiscoveries:purple_display_case",
+      "dustydiscoveries:brown_display_case",
+      "dustydiscoveries:green_display_case",
+      "dustydiscoveries:red_display_case",
+      "dustydiscoveries:black_display_case"
+    ]
+  ],
+  "result": {
+    "id": "dustydiscoveries:blue_display_case"
+  }
+}

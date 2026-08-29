@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dustydiscoveries:item/flow_fossil_0"
+  }
+}

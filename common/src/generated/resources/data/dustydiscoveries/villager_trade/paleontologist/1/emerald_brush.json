@@ -1,0 +1,11 @@
+{
+  "gives": {
+    "id": "minecraft:brush"
+  },
+  "max_uses": 8.0,
+  "reputation_discount": 0.02,
+  "wants": {
+    "id": "minecraft:emerald"
+  },
+  "xp": 10.0
+}

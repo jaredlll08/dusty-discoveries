@@ -1,0 +1,22 @@
+{
+  "additional_wants": {
+    "id": "minecraft:compass"
+  },
+  "gives": {
+    "components": {
+      "dustydiscoveries:fossil": "dustydiscoveries:fossils/tooth",
+      "minecraft:lore": [
+        {
+          "translate": "lore.dustydiscoveries.field_note.fossils/tooth"
+        }
+      ]
+    },
+    "id": "dustydiscoveries:fossil_field_notes"
+  },
+  "max_uses": 8.0,
+  "reputation_discount": 0.02,
+  "wants": {
+    "id": "minecraft:emerald"
+  },
+  "xp": 8.0
+}

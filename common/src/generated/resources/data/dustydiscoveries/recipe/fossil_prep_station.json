@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": "minecraft:brush",
+    "M": "minecraft:packed_mud"
+  },
+  "pattern": [
+    " M ",
+    "MBM",
+    " M "
+  ],
+  "result": {
+    "id": "dustydiscoveries:fossil_prep_station"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "dustydiscoveries:has_glass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:glass_blocks/colorless"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "dustydiscoveries:has_light_blue_wool": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:wool"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dustydiscoveries:light_blue_display_case"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "dustydiscoveries:has_glass",
+      "dustydiscoveries:has_light_blue_wool"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dustydiscoveries:light_blue_display_case"
+    ]
+  }
+}

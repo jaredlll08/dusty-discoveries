@@ -1,0 +1,11 @@
+{
+  "gives": {
+    "id": "dustydiscoveries:red_paleontologist_hat"
+  },
+  "reputation_discount": 0.5,
+  "wants": {
+    "count": 3.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 8.0
+}

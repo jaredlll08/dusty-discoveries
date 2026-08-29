@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "dustydiscoveries:block/fossil_prep_station_bottom",
+    "side": "dustydiscoveries:block/fossil_prep_station_side",
+    "top": "dustydiscoveries:block/fossil_prep_station_top"
+  }
+}

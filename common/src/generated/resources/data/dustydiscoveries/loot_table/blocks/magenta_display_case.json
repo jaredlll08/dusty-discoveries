@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dustydiscoveries:magenta_display_case"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "dustydiscoveries:blocks/magenta_display_case"
+}

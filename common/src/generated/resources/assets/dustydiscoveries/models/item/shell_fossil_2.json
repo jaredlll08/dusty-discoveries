@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dustydiscoveries:item/shell_fossil_2"
+  }
+}

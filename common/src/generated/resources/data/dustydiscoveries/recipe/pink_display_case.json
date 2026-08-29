@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": "#c:glass_blocks/colorless",
+    "W": "minecraft:pink_wool"
+  },
+  "pattern": [
+    "G",
+    "W"
+  ],
+  "result": {
+    "id": "dustydiscoveries:pink_display_case"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "dustydiscoveries:fossil_prep",
+  "ingredient": "dustydiscoveries:encased_silence_fossil",
+  "result": {
+    "id": "dustydiscoveries:silence_fossil_0"
+  }
+}

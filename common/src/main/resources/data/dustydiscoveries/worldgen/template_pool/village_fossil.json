@@ -1,0 +1,59 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dustydiscoveries:fossil/village/flow_0",
+        "processors": "dustydiscoveries:fossilize/flow",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dustydiscoveries:fossil/village/flow_1",
+        "processors": "dustydiscoveries:fossilize/flow",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dustydiscoveries:fossil/village/shell_0",
+        "processors": "dustydiscoveries:fossilize/shell",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dustydiscoveries:fossil/village/shell_1",
+        "processors": "dustydiscoveries:fossilize/shell",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dustydiscoveries:fossil/village/skull_0",
+        "processors": "dustydiscoveries:fossilize/skull",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "dustydiscoveries:fossil/village/snout_0",
+        "processors": "dustydiscoveries:fossilize/snout",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+  ],
+  "fallback": "dustydiscoveries:village_fossil"
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": "#c:glass_blocks/colorless",
+    "W": "minecraft:white_wool"
+  },
+  "pattern": [
+    "G",
+    "W"
+  ],
+  "result": {
+    "id": "dustydiscoveries:white_display_case"
+  }
+}

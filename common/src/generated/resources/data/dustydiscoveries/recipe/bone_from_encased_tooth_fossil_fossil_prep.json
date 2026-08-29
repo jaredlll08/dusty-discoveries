@@ -1,0 +1,8 @@
+{
+  "type": "dustydiscoveries:fossil_prep",
+  "ingredient": "dustydiscoveries:encased_tooth_fossil",
+  "result": {
+    "count": 3,
+    "id": "minecraft:bone"
+  }
+}

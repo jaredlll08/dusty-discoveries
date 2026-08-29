@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "paleontologist_hat_dye",
+  "ingredients": [
+    "minecraft:white_dye",
+    [
+      "dustydiscoveries:orange_paleontologist_hat",
+      "dustydiscoveries:magenta_paleontologist_hat",
+      "dustydiscoveries:light_blue_paleontologist_hat",
+      "dustydiscoveries:yellow_paleontologist_hat",
+      "dustydiscoveries:lime_paleontologist_hat",
+      "dustydiscoveries:pink_paleontologist_hat",
+      "dustydiscoveries:gray_paleontologist_hat",
+      "dustydiscoveries:light_gray_paleontologist_hat",
+      "dustydiscoveries:cyan_paleontologist_hat",
+      "dustydiscoveries:purple_paleontologist_hat",
+      "dustydiscoveries:blue_paleontologist_hat",
+      "dustydiscoveries:brown_paleontologist_hat",
+      "dustydiscoveries:green_paleontologist_hat",
+      "dustydiscoveries:red_paleontologist_hat",
+      "dustydiscoveries:black_paleontologist_hat"
+    ]
+  ],
+  "result": {
+    "id": "dustydiscoveries:white_paleontologist_hat"
+  }
+}

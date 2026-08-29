@@ -1,0 +1,7 @@
+{
+  "type": "dustydiscoveries:fossil_prep",
+  "ingredient": "dustydiscoveries:encased_snout_fossil",
+  "result": {
+    "id": "dustydiscoveries:snout_fossil_0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "additional_wants": {
+    "id": "minecraft:brush"
+  },
+  "gives": {
+    "components": {
+      "minecraft:enchantments": {
+        "minecraft:unbreaking": 3
+      }
+    },
+    "id": "minecraft:brush"
+  },
+  "reputation_discount": 0.02,
+  "wants": {
+    "count": 3.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 10.0
+}

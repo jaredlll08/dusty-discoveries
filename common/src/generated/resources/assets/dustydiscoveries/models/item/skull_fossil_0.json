@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dustydiscoveries:item/skull_fossil_0"
+  }
+}

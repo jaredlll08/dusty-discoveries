@@ -1,0 +1,6 @@
+{
+  "parent": "dustydiscoveries:item/paleontologist_hat",
+  "textures": {
+    "layer0": "dustydiscoveries:item/red_paleontologist_hat"
+  }
+}

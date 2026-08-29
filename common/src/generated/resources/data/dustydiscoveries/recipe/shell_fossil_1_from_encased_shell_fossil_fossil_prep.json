@@ -1,0 +1,7 @@
+{
+  "type": "dustydiscoveries:fossil_prep",
+  "ingredient": "dustydiscoveries:encased_shell_fossil",
+  "result": {
+    "id": "dustydiscoveries:shell_fossil_1"
+  }
+}

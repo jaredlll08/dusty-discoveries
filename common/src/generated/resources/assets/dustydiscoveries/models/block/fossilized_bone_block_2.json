@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dustydiscoveries:block/fossilized_bone_block_2"
+  }
+}

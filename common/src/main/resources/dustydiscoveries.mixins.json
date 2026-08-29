@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.blamejared.dustydiscoveries.mixin",
+  "compatibilityLevel": "JAVA_18",
+  "mixins": [
+    "AccessBlockEntityType",
+    "AccessPoiTypes",
+    "AccessRecipeManager",
+    "AccessStructureTemplatePool"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

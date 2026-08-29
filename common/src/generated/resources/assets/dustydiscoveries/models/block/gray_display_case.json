@@ -1,0 +1,7 @@
+{
+  "parent": "dustydiscoveries:block/display_case",
+  "textures": {
+    "content": "dustydiscoveries:block/gray_display_case",
+    "particle": "dustydiscoveries:block/gray_display_case"
+  }
+}

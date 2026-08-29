@@ -1,0 +1,20 @@
+{
+  "gives": {
+    "components": {
+      "dustydiscoveries:fossil": "dustydiscoveries:fossils",
+      "minecraft:lore": [
+        {
+          "translate": "lore.dustydiscoveries.field_note.fossils"
+        }
+      ]
+    },
+    "id": "dustydiscoveries:fossil_field_notes"
+  },
+  "max_uses": 16.0,
+  "reputation_discount": 0.02,
+  "wants": {
+    "count": 2.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 8.0
+}

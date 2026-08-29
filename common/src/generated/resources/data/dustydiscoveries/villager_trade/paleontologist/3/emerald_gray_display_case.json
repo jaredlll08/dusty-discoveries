@@ -1,0 +1,12 @@
+{
+  "gives": {
+    "id": "dustydiscoveries:gray_display_case"
+  },
+  "max_uses": 8.0,
+  "reputation_discount": 0.5,
+  "wants": {
+    "count": 3.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 8.0
+}
