@@ -21,6 +21,7 @@ import net.neoforged.neoforge.common.Tags;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
+import java.util.stream.Stream;
 
 public class DDRecipeProvider extends RecipeProvider {
     
@@ -43,9 +44,9 @@ public class DDRecipeProvider extends RecipeProvider {
                 .save(this.output);
         
         List<Item> dyes = Items.DYE.asList();
-        this.colorItemWithDye(dyes, DDItems.DISPLAY_CASES.map(RegistryObject::get)
+        this.colorWithDye(dyes, DDItems.DISPLAY_CASES.map(RegistryObject::get)
                 .asList(), "display_case_dye", RecipeCategory.DECORATIONS);
-        this.colorItemWithDye(dyes, DDItems.PALEONTOLOGIST_HATS.map(RegistryObject::get)
+        this.colorWithDye(dyes, DDItems.PALEONTOLOGIST_HATS.map(RegistryObject::get)
                 .asList(), "paleontologist_hat_dye", RecipeCategory.DECORATIONS);
         
         ColorCollection.zipApply(DDItems.DISPLAY_CASES, Blocks.WOOL, (displayCase, wool) -> this.shaped(RecipeCategory.DECORATIONS, displayCase.get())
@@ -100,6 +101,22 @@ public class DDRecipeProvider extends RecipeProvider {
         new SingleItemRecipeBuilder(category, FossilPrepRecipe::new, Ingredient.of(ingredient), result, count)
                 .unlockedBy(DDConstants.sid(getHasName(ingredient)), this.has(ingredient))
                 .save(this.output, DDConstants.sid(getConversionRecipeName(result, ingredient) + "_fossil_prep"));
+    }
+    
+    protected void colorWithDye(List<Item> dyes, List<Item> dyedItems, String groupName, RecipeCategory category) {
+        
+        for(int dyeIndex = 0; dyeIndex < dyes.size(); dyeIndex++) {
+            Item dye = dyes.get(dyeIndex);
+            Item dyedItem = dyedItems.get(dyeIndex);
+            Stream<Item> sourceItems = dyedItems.stream().filter(b -> !b.equals(dyedItem));
+            
+            this.shapeless(category, dyedItem)
+                    .requires(dye)
+                    .requires(Ingredient.of(sourceItems))
+                    .group(groupName)
+                    .unlockedBy("has_needed_dye", this.has(dye))
+                    .save(this.output, DDConstants.sid("dye_" + getItemName(dyedItem)));
+        }
     }
     
     public static class Runner extends RecipeProvider.Runner {
